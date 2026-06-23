@@ -2,7 +2,7 @@
 
 > Painel central. O orquestrador (você) navega por AQUI. Cada sessão-worker
 > atualiza a linha do seu tópico e o log de decisões ao terminar.
-> Atualizado em: 2026-06-22
+> Atualizado em: 2026-06-23
 
 ---
 
@@ -44,15 +44,23 @@ Formato: `YYYY-MM-DD · [tópico] · decisão · porquê`
 - 2026-06-22 · [red-team] · `gaps.md` gerado atacando o pitch real (v2). TOP 5: (1) MN sem modelo/pricing → risco de eliminação em CP; (2) equipe comercial abstrata; (3) beachhead indefinido (autônomo/MEI × PME); (4) circularidade UFCG; (5) PI zero.
 - 2026-06-22 · [fatos] · Empresa-piloto ASSINADA (prova de tração). UFCG NÃO formalizada — condicional a vencer o Centelha (verba CNPq). Pricing em aberto. Perfil comercial e PI/registros = inexistentes. CLAUDE.md §1 corrigido.
 - 2026-06-22 · [decisão pendente] · Beachhead não decidido pelo founder. Recomendação do red-team: PME de geradores (v1 só atende gerador/subestação; autônomo/MEI é v3). Reabrir só com ônus da prova.
+- 2026-06-23 · [modelo de negócio · grill] · As 4 decisões do §3 RESOLVIDAS. (1) Beachhead = PME de geradores (pagador=empresa, usuário=técnico); expansão p/ eletricistas em geral nas Fases 2–3 ("entrar caro-e-estreito p/ sair barato-e-amplo"). (2) Pricing = assinatura por técnico/assento, mensalidade fixa, ~R$30–50/assento. (3) Equipe = founder (CMMS+comercial, pró-labore) + dev PJ (Copiloto) + advisor B2B 20 anos (carta a formalizar) + bolsas: 2 elétrica + 1 mestrando CC; comercial dedicado por gatilho. (4) Escopo = geradores H1 (núcleo) + subestação H2 (bolsistas). · pareceres apontavam negócio como gargalo.
+- 2026-06-23 · [fatos · edital] · Circularidade UFCG DISSOLVIDA: bolsas (§6.1–6.3) são concedidas ao projeto aprovado via FAPESQ↔CNPq e recrutadas pelo coordenador — não exigem convênio UFCG. Subvenção §7.1.d financia explicitamente assessoria de plano de negócio/marketing/anúncios E registro de PI → gaps comercial e PI ganham rubrica. Restrição: sem CLT pela subvenção (dev=PJ); pró-labore só sócio, teto 30%.
+- 2026-06-23 · [pesquisa] · pesquisa.csv (n=9) registrada no ledger com ressalvas: viés de seleção (grupo de geradores) → usar como apetite, não dimensionamento; WTP individual ~R$30 vira âncora por assento; paradoxo do pagador (quem paga não vê valor e vice-versa) → reforça pagador=empresa.
 
 ---
 
-## 3. Decisões de negócio que travam outras frentes (resolver cedo)
-Estas precisam de resposta ANTES de orçamento/cronograma:
-- [ ] **Segmento prioritário** do go-to-market (autônomo/MEI · PME · enterprise)?
-- [ ] **Modelo de pricing** por segmento (assinatura? por OS? por técnico?).
-- [ ] **Equipe a contratar** com recurso Centelha (define O e CE).
-- [ ] **Escopo técnico restante** dos 12 meses (define CF).
+## 3. Decisões de negócio que travam outras frentes (RESOLVIDAS 2026-06-23)
+Resolvidas na sessão de grill (modelo de negócio). Detalhe nos arquivos citados.
+- [x] **Segmento prioritário:** PME de manutenção de **geradores** (pagador=empresa,
+      usuário=técnico); expansão p/ eletricistas em geral nas Fases 2–3. → `03-mercado/GTM.md`
+- [x] **Modelo de pricing:** assinatura **por técnico/assento**, mensalidade fixa,
+      ~R$30–50/assento. Dependência: fair-use cap + unit economics. → `04-consistencia/MN.md`
+- [x] **Equipe/verba:** founder (CMMS+comercial, pró-labore) + dev **PJ** (Copiloto)
+      + advisor B2B (carta a formalizar) + bolsas (2 elétrica + 1 mestrando CC);
+      comercial dedicado por gatilho. → `05-equipe/CE.md` + `04-consistencia/O.md`
+- [x] **Escopo técnico 12 meses:** geradores H1 (núcleo, founder+subvenção) +
+      subestação H2 (aprofundamento, bolsistas). → `04-consistencia/CF.md`
 
 ---
 
@@ -65,6 +73,13 @@ Estas precisam de resposta ANTES de orçamento/cronograma:
 ---
 
 ## 5. Próximas ações (o orquestrador edita isto a cada sessão)
-1. Rodar sessão **red-team** → gera `99-red-team/gaps.md`.
-2. Resolver as 4 decisões do §3 (sessão de modelo de negócio).
-3. Abrir frentes Alta/Crítica em paralelo.
+1. ~~Rodar sessão red-team~~ ✅ · ~~Resolver as 4 decisões do §3~~ ✅ (2026-06-23).
+2. **MN** — fechar unit economics: fair-use cap do copiloto + custo/consulta de IA
+   real + CAC/payback + projeção de receita. (eliminatório — prioridade máxima)
+3. **O** — valores por rubrica somando aos tetos (R$85.333 + R$50.000), amarrados
+   a marcos do CF; confirmar base do teto de 30% do pró-labore.
+4. **CE/DT** — obter carta de intenção do advisor B2B (ação urgente, < 10/08).
+5. **PI jurídica** — estratégia de 1 página + INPI marca/software + cláusula de
+   cessão de PI nos termos de bolsa.
+6. **FV/PE/CF** — entrevistas com pagador + curva de custo marginal + cronograma
+   granular com marcos comerciais.
