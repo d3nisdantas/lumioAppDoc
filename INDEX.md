@@ -33,7 +33,7 @@ Status: ⬜ não iniciado · 🟡 em andamento · ✅ fechado · 🔴 bloqueado
 | DT | Equipe | `05-equipe/DT.md` | Domínio técnico do núcleo + UFCG comprovado? | ⬜ | Baixa (consolidar) |
 | CE | Equipe (gap) | `05-equipe/CE.md` | Capacidade de execução + lacuna comercial endereçada? | ⬜ | Média |
 | — | PI jurídica (gap) | `06-pi-juridico/propriedade-intelectual.md` | Que ativos proteger e como (marca, software, base autoral)? | ⬜ | **Alta** |
-| — | Red-team | `99-red-team/gaps.md` | Onde um avaliador atacaria? (RODAR PRIMEIRO) | ⬜ | **1ª ação** |
+| — | Red-team | `99-red-team/gaps.md` | Onde um avaliador atacaria? (RODAR PRIMEIRO) | ✅ | feito 22/06 |
 
 ---
 
@@ -41,6 +41,9 @@ Status: ⬜ não iniciado · 🟡 em andamento · ✅ fechado · 🔴 bloqueado
 Formato: `YYYY-MM-DD · [tópico] · decisão · porquê`
 
 - 2026-06-22 · [setup] · Estrutura criada, priorização travada em Mercado+CP+PI · pareceres apontaram negócio como gargalo.
+- 2026-06-22 · [red-team] · `gaps.md` gerado atacando o pitch real (v2). TOP 5: (1) MN sem modelo/pricing → risco de eliminação em CP; (2) equipe comercial abstrata; (3) beachhead indefinido (autônomo/MEI × PME); (4) circularidade UFCG; (5) PI zero.
+- 2026-06-22 · [fatos] · Empresa-piloto ASSINADA (prova de tração). UFCG NÃO formalizada — condicional a vencer o Centelha (verba CNPq). Pricing em aberto. Perfil comercial e PI/registros = inexistentes. CLAUDE.md §1 corrigido.
+- 2026-06-22 · [decisão pendente] · Beachhead não decidido pelo founder. Recomendação do red-team: PME de geradores (v1 só atende gerador/subestação; autônomo/MEI é v3). Reabrir só com ônus da prova.
 
 ---
 

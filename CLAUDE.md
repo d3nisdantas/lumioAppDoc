@@ -11,8 +11,13 @@ sobre (a) contexto da OS, (b) base autoral de verbetes da NBR 5410 (propriedade
 do projeto, produzida por bolsistas UFCG) e (c) manuais de fabricante indexados.
 Toda resposta cita fonte, traz nível de confiança e exige LOTO antes de orientar
 intervenção. Diferenciais: base autoral defensável, efeito de rede em manuais,
-travas de segurança. Estado: ~70% do MVP de gestão pronto, +250 testes, parceria
-UFCG e empresa-piloto formalizada.
+travas de segurança. Estado: ~70% do MVP de gestão pronto, +250 testes.
+**Empresa-piloto: acordo de cooperação JÁ ASSINADO** (prova forte de tração).
+**Parceria UFCG: AINDA NÃO formalizada** — será buscada SE o projeto vencer o
+Centelha, pois é viabilizada pela verba de bolsas CNPq da premiação. ⚠ Risco de
+circularidade: o moat da base autoral NBR e parte da equipe/impacto dependem
+dessa parceria condicional. Mitigante a obter ANTES de submeter: carta de
+anuência de professor/departamento da UFCG.
 
 ## 2. Onde estamos: Edital Centelha 3 (PB / FAPESQ) — FASE 2
 - Classificado na Fase 1. Agora é o **Projeto de Fomento (Fase 2)**.
