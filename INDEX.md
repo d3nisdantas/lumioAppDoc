@@ -27,7 +27,7 @@ Status: ⬜ não iniciado · 🟡 em andamento · ✅ fechado · 🔴 bloqueado
 | FV | Mercado | `03-mercado/FV.md` | Que valor concreto entrego a cada segmento? Disposição a pagar? | ✅ | **Alta** |
 | PE | Mercado | `03-mercado/PE.md` | Como escala? PLG, efeito de rede, custo marginal? | ✅ | **Alta** |
 | GTM | Mercado (gap) | `03-mercado/GTM.md` | Posicionamento, canais, CAC, funil de aquisição? | ✅ | **Crítica** |
-| MN | Consistência ⚠ | `04-consistencia/MN.md` | Pricing por segmento, unit economics, receita? | ⬜ | **Crítica** |
+| MN | Consistência ⚠ | `04-consistencia/MN.md` | Pricing por segmento, unit economics, receita? | ✅ | **Crítica** |
 | CF | Consistência ⚠ | `04-consistencia/CF.md` | Cronograma físico 12 meses, marcos, entregáveis? | ⬜ | **Alta** |
 | O  | Consistência ⚠ | `04-consistencia/O.md` | Orçamento por rubrica, alinhado a equipe e cronograma? | ⬜ | **Alta** |
 | DT | Equipe | `05-equipe/DT.md` | Domínio técnico do núcleo + UFCG comprovado? | ⬜ | Baixa (consolidar) |
@@ -47,6 +47,21 @@ Formato: `YYYY-MM-DD · [tópico] · decisão · porquê`
 - 2026-06-23 · [modelo de negócio · grill] · As 4 decisões do §3 RESOLVIDAS. (1) Beachhead = PME de geradores (pagador=empresa, usuário=técnico); expansão p/ eletricistas em geral nas Fases 2–3 ("entrar caro-e-estreito p/ sair barato-e-amplo"). (2) Pricing = assinatura por técnico/assento, mensalidade fixa, ~R$30–50/assento. (3) Equipe = founder (CMMS+comercial, pró-labore) + dev PJ (Copiloto) + advisor B2B 20 anos (carta a formalizar) + bolsas: 2 elétrica + 1 mestrando CC; comercial dedicado por gatilho. (4) Escopo = geradores H1 (núcleo) + subestação H2 (bolsistas). · pareceres apontavam negócio como gargalo.
 - 2026-06-23 · [fatos · edital] · Circularidade UFCG DISSOLVIDA: bolsas (§6.1–6.3) são concedidas ao projeto aprovado via FAPESQ↔CNPq e recrutadas pelo coordenador — não exigem convênio UFCG. Subvenção §7.1.d financia explicitamente assessoria de plano de negócio/marketing/anúncios E registro de PI → gaps comercial e PI ganham rubrica. Restrição: sem CLT pela subvenção (dev=PJ); pró-labore só sócio, teto 30%.
 - 2026-06-23 · [pesquisa] · pesquisa.csv (n=9) registrada no ledger com ressalvas: viés de seleção (grupo de geradores) → usar como apetite, não dimensionamento; WTP individual ~R$30 vira âncora por assento; paradoxo do pagador (quem paga não vê valor e vice-versa) → reforça pagador=empresa.
+- 2026-06-25 · [modelo de negócio · grill · Track B] · MN FECHADO. Pricing: Free
+  (autônomo, CMMS+Copiloto, 1 usuário, ≤10 equip., uso justo ~20/mês) + Equipe
+  (R$40/assento, mín. 2, uso justo ~100/assento); SEM Enterprise (founder preferiu
+  Freemium a topo). Copiloto INCLUÍDO no assento, uso justo soft (IA custa só 1–3%
+  do assento → cap é trava anti-abuso, não alavanca). Gate Free→pago: 2º usuário OU
+  >10 equip. Cobrança mensal default + opção anual. Unit economics (`unit-economics.csv`,
+  4 sheets): ARPA R$120; churn base 5%/mês (consistente c/ GTM), sens. 3%/8%; custo-
+  de-servir 2 camadas (fixo R$400–800 + var R$2,50 pago/R$1,80 free) `[VALIDAR]`;
+  CAC blended R$843→R$451 (mix 80/20→30/70); LTV/CAC 2,4×(network)/11,1×(distrib.);
+  payback ~7,5 m; ARR 14,4k→57,6k→180k (36m, SOM-ancorado); margem core 44%→90%.
+  Freemium = canal PARALELO (não infla SOM), custo do free entra no CAC (lembrete).
+  Scoring verticais: fit dividido em CMMS×Copiloto; pesos Mercado30/Dor-campo25/WTP15/
+  FitCMMS15/FitCopiloto15. Sequência: geradores→SUBESTAÇÃO (comprometida, puxada por
+  cliente)→SOLAR/EV (hipótese-a-validar: alto mercado/Copiloto mas exige conteúdo de
+  norma novo). 2 LEMBRETES no MN.md: incluir free no CAC + estimar custo-de-servir real.
 - 2026-06-25 · [mercado · grill] · Track A (FV+PE+GTM) fechado. TAM=332.833 (CNAE 4321-5, Econodata mai/2026). SAM=~8.750–10.000 (CNAE 3313-9/01, ≤10 func.). SOM 12m=10 empresas; SOM 36m=100–150. CMMS como produto de receita imediata (mês 1 pós-resultado), Copiloto como acelerador H2. VPC 3 segmentos: autônomo (digitalização+laudo), PME geradores (margem+junior autônomo — beachhead), grande operador (padronização+auditabilidade — hipótese). Bullseye: interno=WhatsApp+distribuidores; meio=referral+SEO; externo=YouTube/LinkedIn/CREA. AARRR: CAC R$144–1.000; aha moment = Copiloto cita manual específico; MRR mês 12 = R$1.200; LTV/CAC 2,4–11×. Subestações incluídas no SAM (mesmo CNAE, mesmo perfil). 840 mortes por acidentes elétricos 2024 (ABRACOPEL) — dado mais forte que "centenas" do pitch.
 
 ---
@@ -75,8 +90,9 @@ Resolvidas na sessão de grill (modelo de negócio). Detalhe nos arquivos citado
 
 ## 5. Próximas ações (o orquestrador edita isto a cada sessão)
 1. ~~Rodar sessão red-team~~ ✅ · ~~Resolver as 4 decisões do §3~~ ✅ (2026-06-23).
-2. **MN** — fechar unit economics: fair-use cap do copiloto + custo/consulta de IA
-   real + CAC/payback + projeção de receita. (eliminatório — prioridade máxima)
+2. ~~**MN** — fechar unit economics + pricing + scoring~~ ✅ (Track B, 2026-06-25).
+   ⚠ Pendências `[VALIDAR]` herdadas: custo-de-servir real (CMMS+IA), conversão
+   freemium, e **incluir custo do free no CAC** (2 lembretes no `MN.md`).
 3. **O** — valores por rubrica somando aos tetos (R$85.333 + R$50.000), amarrados
    a marcos do CF; confirmar base do teto de 30% do pró-labore.
 4. **CE/DT** — obter carta de intenção do advisor B2B (ação urgente, < 10/08).
