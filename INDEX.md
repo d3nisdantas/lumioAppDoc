@@ -22,8 +22,8 @@ Status: ⬜ não iniciado · 🟡 em andamento · ✅ fechado · 🔴 bloqueado
 |---|---|---|---|---|---|
 | EDD | Solução | `01-solucao/EDD.md` | Que evidências provam o estágio atual (MVP 70%, testes, piloto)? | ⬜ | Baixa (consolidar) |
 | PDT | Solução | `01-solucao/PDT.md` | Qual a tese de evolução tecnológica nos 12 meses? | ⬜ | Média |
-| PI | Impacto | `02-impacto/PI.md` | Que impacto positivo medível (segurança, conformidade)? | ⬜ | Baixa (consolidar) |
-| EX | Impacto | `02-impacto/EX.md` | Que externalidades (acadêmico UFCG, regional, emprego)? | ⬜ | Baixa |
+| PI | Impacto | `02-impacto/PI.md` | Que impacto positivo medível (segurança, conformidade)? | ✅ | Baixa (consolidar) |
+| EX | Impacto | `02-impacto/EX.md` | Que externalidades (acadêmico UFCG, regional, emprego)? | ✅ | Baixa |
 | FV | Mercado | `03-mercado/FV.md` | Que valor concreto entrego a cada segmento? Disposição a pagar? | ✅ | **Alta** |
 | PE | Mercado | `03-mercado/PE.md` | Como escala? PLG, efeito de rede, custo marginal? | ✅ | **Alta** |
 | GTM | Mercado (gap) | `03-mercado/GTM.md` | Posicionamento, canais, CAC, funil de aquisição? | ✅ | **Crítica** |
@@ -62,6 +62,23 @@ Formato: `YYYY-MM-DD · [tópico] · decisão · porquê`
   FitCMMS15/FitCopiloto15. Sequência: geradores→SUBESTAÇÃO (comprometida, puxada por
   cliente)→SOLAR/EV (hipótese-a-validar: alto mercado/Copiloto mas exige conteúdo de
   norma novo). 2 LEMBRETES no MN.md: incluir free no CAC + estimar custo-de-servir real.
+- 2026-06-25 · [impacto · grill · Track D] · PI + EX FECHADOS. (1) Espinha causal
+  MEDIADA: Copiloto eleva conformidade/adesão a LOTO+citação de norma (proxy
+  controlável); 840 mortes = contexto, não KPI → desarma "vínculo copiloto→vida é
+  narrativo". (2) DUAS espinhas de valor/impacto: A=segurança+agilidade diagnóstica
+  (Copiloto); B=digitalização/inclusão via CMMS especializado-por-nicho de baixo
+  custo (via IA) vs. generalistas. (3) FBC pragmático 13 blocos (cortados Biophysical
+  Stocks/Ecosystem Services/Value Co-Destruction); Ecosystem Actors = humanos
+  influenciados (não ecologia). (4) Negativos declarados+mitigados: viés-IA, pegada-IA,
+  deskilling; "deslocamento júnior" reposicionado como POSITIVO (inclusão). Sem
+  correlação ambiental forçada (só pegada-IA no lado Planeta). (5) Externalidades em
+  2 ANDARES: piso garantido (empregos, capacitação piloto, digitalização, bolsas CNPq,
+  normas replicáveis) + upside IES (lab, orientação, Campina Grande/NE) → desarma
+  circularidade. (6) Impact Gap Canvas: lacuna = INTERSEÇÃO de 5 atributos (fundamentado
+  +seguro+no-fluxo+acessível+especializado). (7) ToC: indicadores = proxies medidos no
+  piloto (LOTO/citação, tempo-diagnóstico); COMPROMISSO DE MEDIÇÃO + baseline, NÃO
+  percentuais cravados (desarma "tudo é hipótese"); metas duras só onde controla
+  (adoção, verbetes, bolsistas). `*` marca tudo condicionado a vencer o edital.
 - 2026-06-25 · [mercado · grill] · Track A (FV+PE+GTM) fechado. TAM=332.833 (CNAE 4321-5, Econodata mai/2026). SAM=~8.750–10.000 (CNAE 3313-9/01, ≤10 func.). SOM 12m=10 empresas; SOM 36m=100–150. CMMS como produto de receita imediata (mês 1 pós-resultado), Copiloto como acelerador H2. VPC 3 segmentos: autônomo (digitalização+laudo), PME geradores (margem+junior autônomo — beachhead), grande operador (padronização+auditabilidade — hipótese). Bullseye: interno=WhatsApp+distribuidores; meio=referral+SEO; externo=YouTube/LinkedIn/CREA. AARRR: CAC R$144–1.000; aha moment = Copiloto cita manual específico; MRR mês 12 = R$1.200; LTV/CAC 2,4–11×. Subestações incluídas no SAM (mesmo CNAE, mesmo perfil). 840 mortes por acidentes elétricos 2024 (ABRACOPEL) — dado mais forte que "centenas" do pitch.
 
 ---
