@@ -2,7 +2,7 @@
 
 > Painel central. O orquestrador (você) navega por AQUI. Cada sessão-worker
 > atualiza a linha do seu tópico e o log de decisões ao terminar.
-> Atualizado em: 2026-06-25
+> Atualizado em: 2026-07-02
 
 ---
 
@@ -22,16 +22,16 @@ Status: ⬜ não iniciado · 🟡 em andamento · ✅ fechado · 🔴 bloqueado
 |---|---|---|---|---|---|
 | EDD | Solução | `01-solucao/EDD.md` | Que evidências provam o estágio atual (MVP 70%, testes, piloto)? | ⬜ | Baixa (consolidar) |
 | PDT | Solução | `01-solucao/PDT.md` | Qual a tese de evolução tecnológica nos 12 meses? | ⬜ | Média |
-| PI | Impacto | `02-impacto/PI.md` | Que impacto positivo medível (segurança, conformidade)? | ✅ | Baixa (consolidar) |
-| EX | Impacto | `02-impacto/EX.md` | Que externalidades (acadêmico UFCG, regional, emprego)? | ✅ | Baixa |
-| FV | Mercado | `03-mercado/FV.md` | Que valor concreto entrego a cada segmento? Disposição a pagar? | ✅ | **Alta** |
-| PE | Mercado | `03-mercado/PE.md` | Como escala? PLG, efeito de rede, custo marginal? | ✅ | **Alta** |
-| GTM | Mercado (gap) | `03-mercado/GTM.md` | Posicionamento, canais, CAC, funil de aquisição? | ✅ | **Crítica** |
-| MN | Consistência ⚠ | `04-consistencia/MN.md` | Pricing por segmento, unit economics, receita? | ✅ | **Crítica** |
-| CF | Consistência ⚠ | `04-consistencia/CF.md` | Cronograma físico 12 meses, marcos, entregáveis? | ⬜ | **Alta** |
-| O  | Consistência ⚠ | `04-consistencia/O.md` | Orçamento por rubrica, alinhado a equipe e cronograma? | ⬜ | **Alta** |
-| DT | Equipe | `05-equipe/DT.md` | Domínio técnico do núcleo + UFCG comprovado? | ⬜ | Baixa (consolidar) |
-| CE | Equipe (gap) | `05-equipe/CE.md` | Capacidade de execução + lacuna comercial endereçada? | ⬜ | Média |
+| PI | Impacto | `02-impacto/PI.md` | Que impacto positivo medível (segurança, conformidade)? | 🟡 revisar (EV) | Baixa (consolidar) |
+| EX | Impacto | `02-impacto/EX.md` | Que externalidades (acadêmico UFCG, regional, emprego)? | 🟡 revisar (EV) | Baixa |
+| FV | Mercado | `03-mercado/FV.md` | Que valor concreto entrego a cada segmento? Disposição a pagar? | 🟡 revisar (EV) | **Alta** |
+| PE | Mercado | `03-mercado/PE.md` | Como escala? PLG, efeito de rede, custo marginal? | 🟡 revisar (EV) | **Alta** |
+| GTM | Mercado (gap) | `03-mercado/GTM.md` | Posicionamento, canais, CAC, funil de aquisição? | ✅ (pivot EV) | **Crítica** |
+| MN | Consistência ⚠ | `04-consistencia/MN.md` | Pricing por segmento, unit economics, receita? | ✅ (pivot EV) | **Crítica** |
+| CF | Consistência ⚠ | `04-consistencia/CF.md` | Cronograma físico 12 meses, marcos, entregáveis? | ✅ (Gate 1 + rubricas) | **Alta** |
+| O  | Consistência ⚠ | `04-consistencia/O.md` | Orçamento por rubrica, alinhado a equipe e cronograma? | ✅ (grill 07-02) | **Alta** |
+| DT | Equipe | `05-equipe/DT.md` | Domínio técnico do núcleo + UFCG comprovado? | ✅ (grill 07-02) | Baixa (consolidar) |
+| CE | Equipe (gap) | `05-equipe/CE.md` | Capacidade de execução + lacuna comercial endereçada? | ✅ (grill 07-02) | Média |
 | — | PI jurídica (gap) | `06-pi-juridico/propriedade-intelectual.md` | Que ativos proteger e como (marca, software, base autoral)? | ⬜ | **Alta** |
 | — | Red-team | `99-red-team/gaps.md` | Onde um avaliador atacaria? (RODAR PRIMEIRO) | ✅ | feito 22/06 |
 
@@ -80,20 +80,73 @@ Formato: `YYYY-MM-DD · [tópico] · decisão · porquê`
   percentuais cravados (desarma "tudo é hipótese"); metas duras só onde controla
   (adoção, verbetes, bolsistas). `*` marca tudo condicionado a vencer o edital.
 - 2026-06-25 · [mercado · grill] · Track A (FV+PE+GTM) fechado. TAM=332.833 (CNAE 4321-5, Econodata mai/2026). SAM=~8.750–10.000 (CNAE 3313-9/01, ≤10 func.). SOM 12m=10 empresas; SOM 36m=100–150. CMMS como produto de receita imediata (mês 1 pós-resultado), Copiloto como acelerador H2. VPC 3 segmentos: autônomo (digitalização+laudo), PME geradores (margem+junior autônomo — beachhead), grande operador (padronização+auditabilidade — hipótese). Bullseye: interno=WhatsApp+distribuidores; meio=referral+SEO; externo=YouTube/LinkedIn/CREA. AARRR: CAC R$144–1.000; aha moment = Copiloto cita manual específico; MRR mês 12 = R$1.200; LTV/CAC 2,4–11×. Subestações incluídas no SAM (mesmo CNAE, mesmo perfil). 840 mortes por acidentes elétricos 2024 (ABRACOPEL) — dado mais forte que "centenas" do pitch.
+- 2026-07-02 · [solução · PIVOT · grill] · **SUBESTAÇÃO SAI, INSTALAÇÃO/ADEQUAÇÃO EV ENTRA** como vertical de aprofundamento H2 (subestação = nicho raso: 1 cliente-final + concorrente robusto; custo de sair baixo pois tração é de geradores). Brief-mestre: `_PIVOT-EV-2026-07-02.md`; briefings por pasta: `03-mercado/`, `04-consistencia/`, `02-impacto/_BRIEFING-pivot-ev.md`. **8 decisões:** (1) submete-se o SOFTWARE + base autoral; instalação EV = lab/dogfood, NÃO a inovação (evita colapso de CP). (2) Geradores segue beachhead (piloto ASSINADO = tração intacta). (3) Subestação sai; EV entra em H2. (4) **Caminho leve:** instalação = tipo especial de OS + laudo/ART, NÃO ERP de obra → preserva MVP 70%/500 testes e cabe em 12m. (5) **Gate de validação H1** (~mês 4–5): dor EV NÃO validada → 5–10 instalações-lab nos ~50 condomínios + plano B (10–15 entrevistas c/ instaladores EV) decidem o recorte de H2. (6) **PDT-espinha:** copiloto agêntico de conformidade normativa + laço de aprendizado por feedback + guardrails de recusa, ancorado em base autoral NBR 5410+17019. (7) Equipe/verba: bolsistas elétrica=base/conteúdo · mestrando CC=arquitetura agêntica · dev PJ=integração. (8) Refrigeração/Linha 1 = FORA da submissão (adjacência de geradores; baixa norma → sem moat, não justifica CNPq) = expansão pós-Centelha. ⚠ CORREÇÃO a propagar: no MN.md desmembrar "Solar+EV" → EV REUSA NBR 5410 (+17019 nova=moat), perfil ≈ "instalações prediais" (alto reuso/base, baixo Fit CMMS); solar é que puxa NBR 16690. Moat NÃO inverte: base autoral=moat durável; arquitetura agêntica=PDT/motor. EV é HIPÓTESE-a-validar, geradores é fato. Status FV/PE/GTM/MN/PI/EX → 🟡 revisar (EV).
 
 ---
 
-## 3. Decisões de negócio que travam outras frentes (RESOLVIDAS 2026-06-23)
+- 2026-07-02 · [mercado+consistência · grill · pivot-EV] · **GTM, MN e CF atualizados
+  para o pivot subestação→instalação/EV.** 12 decisões: (1) escopo da sessão inclui
+  cronograma granular do CF. (2) Heatmap MN: WTP de EV = `[VALIDAR]`, Score exibido
+  como **faixa 3,80–4,40** (não fingir precisão). (3) Subestação **mantida no heatmap
+  com nota "descartada como prioridade; retida como contingência do gate H1"** (norma-
+  pesada → mantém bolsistas produtivos); solar desmembrada de EV, sozinha = 3,80
+  (NBR 16690, baixo reuso). (4) Nova linha "Instalação/adequação EV" (Mercado🟢5,
+  Dor🟢5, WTP`[VALIDAR]`, FitCMMS🟧2, FitCopiloto🟩4). (5) GTM: condomínios/síndicos =
+  **Canal de VALIDAÇÃO H1, FORA dos 3 anéis** (anéis são receita/geradores); ~50
+  condomínios = evidência de ACESSO, não WTP. (6) Funil AARRR intocado + frase de
+  fronteira (EV não tem funil de receita nesta fase). (7) Gate 1 negativo → contingência
+  = **subestação** (não aprofundar geradores — subestação é norma-pesada). (8) CF:
+  calendário real **M1=out/2026 → M12=set/2027**; divulgação 02/10, contratação
+  03/10–31/12/2026. (9) Entrada escalonada: Founder M1, Dev PJ M1–M2, **equipe univ.
+  M4–M6 (Q1/27, ≤ fim mar/27)**. (10) **6+6 preservado e reescrito:** equipe univ. faz
+  **manuais/geradores (H1) → normas/EV (H2)**; NÃO dissolver em "founder=geradores/
+  equipe=EV". (11) **Dois gates:** Gate 1 mercado (M4–5, EV✅/subestação) + Gate 2
+  técnico (fim H1/M6, agente-de-manuais validado → constrói agente-de-normas). (12)
+  Fontes NBR 17019 + mercado EV = `[FONTE PENDENTE]` (não buscadas nesta sessão).
+  Caminho leve reafirmado (instalação = tipo especial de OS). Status: GTM/MN→✅;
+  CF→🟡 (granular feito, mas O/CE ainda alimentam a alocação fina).
+
+---
+
+- 2026-07-02 · [consistência+equipe · grill] · **Triângulo O+CF+CE+DT FECHADO.**
+  **O (orçamento):** subvenção R$85.333 cravada → pró-labore R$12k (R$1.000/mês, 15h/sem,
+  14% << teto 30% da subvenção=base confirmada) + dev PJ R$36k + **comercial R$16k**
+  (R$6k realocados do pró-labore; advisor **pro-bono** por carta não consome a rubrica)
+  + PI/INPI R$6k + IA/infra R$8k + contador R$4,8k + diárias R$2.533. Bolsas ≤R$50k:
+  2 EE (DTI) + 1 mestrando CC, valores unitários `[VALIDAR: tabela FAPESQ/CNPq]`.
+  ⚠ Tensão registrada: O orça 12 bolsa-mês, CF entra M4 (~9m) → reconciliar com a tabela.
+  **CF → ✅:** Gate 1 = **teste de 3 sinais** (≥5 instalações-lab / ≥60% dor conformidade /
+  ≥3 sinais WTP; falha em qualquer um após plano B → contingência subestação); rubricas
+  amarradas aos marcos. **CE → ✅:** gap comercial = founder (15h/sem, part-time
+  reposicionado como mitigação de risco) + advisor pro-bono + **comercial dedicado por
+  GATILHO** (≥5 clientes pagos + saturação de pipeline; **custeado por RECEITA, não
+  subvenção**); dev PJ júnior já na equipe (tração, pago pelo founder hoje). **DT → ✅:**
+  founder EE/UFCG + 10a eng. software embarcado, **MVP solo** (GitHub+Railway); lacuna
+  de NBR reposicionada como **o objeto do fomento** (base 100% a construir = moat). ·
+  fecha o cluster de CP (peso 2×, eliminatório) + gap nº1 (comercial) e nº4 (contratações).
+
+---
+
+## 3. Decisões de negócio que travam outras frentes (RESOLVIDAS 2026-06-23 · escopo H2 revisto no pivot 2026-07-02)
 Resolvidas na sessão de grill (modelo de negócio). Detalhe nos arquivos citados.
 - [x] **Segmento prioritário:** PME de manutenção de **geradores** (pagador=empresa,
       usuário=técnico); expansão p/ eletricistas em geral nas Fases 2–3. → `03-mercado/GTM.md`
 - [x] **Modelo de pricing:** assinatura **por técnico/assento**, mensalidade fixa,
-      ~R$30–50/assento. Dependência: fair-use cap + unit economics. → `04-consistencia/MN.md`
+      ~R$30–50/assento. Dependência: fair-use cap + unit economics.
+      Instalação EV entra como **tipo especial de OS dentro do modelo por assento**
+      (caminho leve), **não** como produto de projeto à parte. → `04-consistencia/MN.md`
 - [x] **Equipe/verba:** founder (CMMS+comercial, pró-labore) + dev **PJ** (Copiloto)
       + advisor B2B (carta a formalizar) + bolsas (2 elétrica + 1 mestrando CC);
-      comercial dedicado por gatilho. → `05-equipe/CE.md` + `04-consistencia/O.md`
+      comercial dedicado por gatilho. Composição **inalterada** pelo pivot; papéis das
+      bolsas definidos no `_PIVOT-EV §3.7` (elétrica→base autoral NBR 5410+17019;
+      mestrando CC→arquitetura agêntica; dev PJ→integração). → `05-equipe/CE.md` + `04-consistencia/O.md`
 - [x] **Escopo técnico 12 meses:** geradores H1 (núcleo, founder+subvenção) +
-      subestação H2 (aprofundamento, bolsistas). → `04-consistencia/CF.md`
+      **instalação/adequação de carregadores EV** H2 (aprofundamento, bolsistas),
+      via **caminho leve** (instalação = tipo especial de OS, não ERP de obra) e
+      **gate de validação H1** (~mês 4–5: 5–10 instalações-lab nos ~50 condomínios +
+      plano B de entrevistas c/ instaladores EV). Substitui subestação (nicho raso:
+      1 cliente-final + concorrente robusto). → `04-consistencia/CF.md`
+      · detalhe no log 2026-07-02 e `_PIVOT-EV-2026-07-02.md`.
 
 ---
 
@@ -110,10 +163,18 @@ Resolvidas na sessão de grill (modelo de negócio). Detalhe nos arquivos citado
 2. ~~**MN** — fechar unit economics + pricing + scoring~~ ✅ (Track B, 2026-06-25).
    ⚠ Pendências `[VALIDAR]` herdadas: custo-de-servir real (CMMS+IA), conversão
    freemium, e **incluir custo do free no CAC** (2 lembretes no `MN.md`).
-3. **O** — valores por rubrica somando aos tetos (R$85.333 + R$50.000), amarrados
-   a marcos do CF; confirmar base do teto de 30% do pró-labore.
-4. **CE/DT** — obter carta de intenção do advisor B2B (ação urgente, < 10/08).
+3. ~~**O** — valores por rubrica somando aos tetos~~ ✅ (grill 07-02). Pendência:
+   `[VALIDAR]` valores unitários de bolsa (tabela FAPESQ/CNPq) + reconciliar 12m vs. M4.
+4. **CE/DT** — obter **carta de intenção do advisor B2B** (ação urgente, < 10/08) +
+   link do **repo GitHub / deploy Railway** para evidência de DT `[FONTE PENDENTE]`.
 5. **PI jurídica** — estratégia de 1 página + INPI marca/software + cláusula de
    cessão de PI nos termos de bolsa.
 6. **FV/PE/CF** — entrevistas com pagador + curva de custo marginal + cronograma
    granular com marcos comerciais.
+7. ~~**CF/EV** — cronograma físico com H2 = instalação/EV, gate H1, caminho leve~~ ✅
+   (grill 2026-07-02: calendário out/26–set/27, granular M1–M12, dois gates).
+   ⚠ Pendências que **mantêm o CF em 🟡**: amarrar marcos às rubricas do **`O.md`**,
+   confirmar equipe no **`CE.md`** e definir o critério quantitativo do **Gate 1**.
+8. ~~**GTM/MN** — aplicar o pivot EV~~ ✅ (grill 2026-07-02). Segue pendente em
+   Mercado: entrevistas com o **pagador** (geradores) e, pós-gate, mini unit-economics
+   de EV `[VALIDAR]`.

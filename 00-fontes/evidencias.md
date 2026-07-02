@@ -24,4 +24,11 @@
 | CAC blended por ano (mix 80/20→30/70) | R$843 → R$608 → R$451 | modelo próprio | 2026-06 | MN |
 | ARR run-rate anos 1–3 (10→40→125 empresas) | R$14,4k → R$57,6k → R$180k | modelo próprio (SOM-ancorado) | 2026-06 | MN |
 | Conversão freemium Free→pago (premissa) | ~4%/ano a partir do ano 2 | premissa própria | 2026-06 | MN — `[VALIDAR]` |
+| Base do teto de 30% do pró-labore | valor da subvenção (R$85.333) | Edital Centelha 3, §7.1.g (confirmado no texto) | 2026-07-02 | O |
+| Valores unitários de bolsa (DTI/mestrado) | `[VALIDAR: tabela FAPESQ/CNPq do edital]` | edital — não localizado nesta sessão | 2026-07-02 | O |
+| Founder — formação e experiência | Eng. Elétrica (UFCG); 10 anos eng. software embarcado | declaração do founder (grill) | 2026-07-02 | DT, CE |
+| Founder — MVP construído solo | CMMS ~70% + 500+ testes; GitHub + deploy Railway | declaração do founder; repo/URL `[FONTE PENDENTE]` | 2026-07-02 | DT |
+| Dev PJ — perfil | júnior, 1 ano, recém-formado; já na equipe (pago pelo founder) | declaração do founder | 2026-07-02 | DT, CE |
+| Base autoral NBR — estado | 100% a construir (nenhum verbete pronto) | declaração do founder | 2026-07-02 | DT, PDT |
+| Founder — dedicação ao Lumio | 15h/semana (mantém outro emprego) | declaração do founder | 2026-07-02 | CE, O |
 | (adicionar...) | | `[FONTE PENDENTE]` | | |

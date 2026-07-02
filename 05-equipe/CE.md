@@ -15,8 +15,33 @@ Arranjo escolhido (opção A do grill):
     responsabilidades esperadas → obter **carta de intenção/compromisso**.
 - **Dev do Copiloto = PJ** (consultoria técnica; não pode ser CLT pela subvenção)
   para liberar o founder e mitigar bus factor.
-- **Comercial dedicado (contratação) = por GATILHO**, não no mês 1 (ex.: após
-  validar pricing com X clientes). Evita rubrica de vendas ociosa.
+- **Comercial dedicado (contratação) = por GATILHO**, não no mês 1. Evita rubrica
+  de vendas ociosa. → detalhado abaixo.
+
+## 🎚 Gatilho do comercial dedicado (grill 2026-07-02)
+O founder acumula **tech lead + líder comercial a 15h/semana** até o funil saturar
+sua capacidade. Contrata-se comercial dedicado quando **ambos**:
+1. **Tração:** ≥ **5 contratos pagos ativos** (metade do SOM de 12m do `MN.md`);
+2. **Saturação:** pipeline qualificado excede o que o founder fecha em 15h/sem.
+
+**Financiamento = RECEITA recorrente já existente nesse ponto, NÃO a subvenção.**
+Não há (nem pode haver) rubrica de comercial CLT nos R$85.333 (edital proíbe vínculo
+e o orçamento está fechado). A contratação só dispara quando há MRR para pagá-la —
+**coerente com o unit-economics do MN**. Assim "falta gente de vendas" vira "há
+gatilho e fonte de custeio definidos", não promessa vazia.
+
+## ⏱ Dedicação e financiamento do founder (grill 2026-07-02)
+- **15h/semana** ao Lumio; mantém outro emprego (eng. de software) → **mitiga risco
+  financeiro e bus factor**, não sinaliza descompromisso. Ver enquadramento em `O.md`.
+- Pró-labore **simbólico** (R$1.000/mês) + **R$6k realocados ao comercial** → prova
+  reinvestimento no negócio.
+
+## 🛠 Dev PJ júnior — já na equipe (tração, não vaga)
+- Dev **júnior real** (1 ano, recém-formado), **hoje pago do bolso do founder** →
+  evidência de comprometimento e continuidade (não é contratação hipotética).
+- **Founder = tech lead** sobre o júnior; senioridade de arquitetura coberta pelo
+  founder (10 anos eng. software embarcado) + mestrando CC (arquitetura agêntica).
+  Desarma "júnior constrói o Copiloto sozinho?". Ver `DT.md`.
 
 ## Por que isto rebate o ataque do red-team (CE — gap nº1 dos 2 avaliadores)
 A lacuna comercial deixa de ser abstrata: há **pessoa real** (advisor B2B 20 anos)
