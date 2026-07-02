@@ -22,12 +22,12 @@ Status: ⬜ não iniciado · 🟡 em andamento · ✅ fechado · 🔴 bloqueado
 |---|---|---|---|---|---|
 | EDD | Solução | `01-solucao/EDD.md` | Que evidências provam o estágio atual (MVP 70%, testes, piloto)? | ⬜ | Baixa (consolidar) |
 | PDT | Solução | `01-solucao/PDT.md` | Qual a tese de evolução tecnológica nos 12 meses? | ⬜ | Média |
-| PI | Impacto | `02-impacto/PI.md` | Que impacto positivo medível (segurança, conformidade)? | ✅ | Baixa (consolidar) |
-| EX | Impacto | `02-impacto/EX.md` | Que externalidades (acadêmico UFCG, regional, emprego)? | ✅ | Baixa |
-| FV | Mercado | `03-mercado/FV.md` | Que valor concreto entrego a cada segmento? Disposição a pagar? | ✅ | **Alta** |
-| PE | Mercado | `03-mercado/PE.md` | Como escala? PLG, efeito de rede, custo marginal? | ✅ | **Alta** |
-| GTM | Mercado (gap) | `03-mercado/GTM.md` | Posicionamento, canais, CAC, funil de aquisição? | ✅ | **Crítica** |
-| MN | Consistência ⚠ | `04-consistencia/MN.md` | Pricing por segmento, unit economics, receita? | ✅ | **Crítica** |
+| PI | Impacto | `02-impacto/PI.md` | Que impacto positivo medível (segurança, conformidade)? | 🟡 revisar (EV) | Baixa (consolidar) |
+| EX | Impacto | `02-impacto/EX.md` | Que externalidades (acadêmico UFCG, regional, emprego)? | 🟡 revisar (EV) | Baixa |
+| FV | Mercado | `03-mercado/FV.md` | Que valor concreto entrego a cada segmento? Disposição a pagar? | 🟡 revisar (EV) | **Alta** |
+| PE | Mercado | `03-mercado/PE.md` | Como escala? PLG, efeito de rede, custo marginal? | 🟡 revisar (EV) | **Alta** |
+| GTM | Mercado (gap) | `03-mercado/GTM.md` | Posicionamento, canais, CAC, funil de aquisição? | 🟡 revisar (EV) | **Crítica** |
+| MN | Consistência ⚠ | `04-consistencia/MN.md` | Pricing por segmento, unit economics, receita? | 🟡 revisar (EV) | **Crítica** |
 | CF | Consistência ⚠ | `04-consistencia/CF.md` | Cronograma físico 12 meses, marcos, entregáveis? | ⬜ | **Alta** |
 | O  | Consistência ⚠ | `04-consistencia/O.md` | Orçamento por rubrica, alinhado a equipe e cronograma? | ⬜ | **Alta** |
 | DT | Equipe | `05-equipe/DT.md` | Domínio técnico do núcleo + UFCG comprovado? | ⬜ | Baixa (consolidar) |
@@ -80,6 +80,7 @@ Formato: `YYYY-MM-DD · [tópico] · decisão · porquê`
   percentuais cravados (desarma "tudo é hipótese"); metas duras só onde controla
   (adoção, verbetes, bolsistas). `*` marca tudo condicionado a vencer o edital.
 - 2026-06-25 · [mercado · grill] · Track A (FV+PE+GTM) fechado. TAM=332.833 (CNAE 4321-5, Econodata mai/2026). SAM=~8.750–10.000 (CNAE 3313-9/01, ≤10 func.). SOM 12m=10 empresas; SOM 36m=100–150. CMMS como produto de receita imediata (mês 1 pós-resultado), Copiloto como acelerador H2. VPC 3 segmentos: autônomo (digitalização+laudo), PME geradores (margem+junior autônomo — beachhead), grande operador (padronização+auditabilidade — hipótese). Bullseye: interno=WhatsApp+distribuidores; meio=referral+SEO; externo=YouTube/LinkedIn/CREA. AARRR: CAC R$144–1.000; aha moment = Copiloto cita manual específico; MRR mês 12 = R$1.200; LTV/CAC 2,4–11×. Subestações incluídas no SAM (mesmo CNAE, mesmo perfil). 840 mortes por acidentes elétricos 2024 (ABRACOPEL) — dado mais forte que "centenas" do pitch.
+- 2026-07-02 · [solução · PIVOT · grill] · **SUBESTAÇÃO SAI, INSTALAÇÃO/ADEQUAÇÃO EV ENTRA** como vertical de aprofundamento H2 (subestação = nicho raso: 1 cliente-final + concorrente robusto; custo de sair baixo pois tração é de geradores). Brief-mestre: `_PIVOT-EV-2026-07-02.md`; briefings por pasta: `03-mercado/`, `04-consistencia/`, `02-impacto/_BRIEFING-pivot-ev.md`. **8 decisões:** (1) submete-se o SOFTWARE + base autoral; instalação EV = lab/dogfood, NÃO a inovação (evita colapso de CP). (2) Geradores segue beachhead (piloto ASSINADO = tração intacta). (3) Subestação sai; EV entra em H2. (4) **Caminho leve:** instalação = tipo especial de OS + laudo/ART, NÃO ERP de obra → preserva MVP 70%/500 testes e cabe em 12m. (5) **Gate de validação H1** (~mês 4–5): dor EV NÃO validada → 5–10 instalações-lab nos ~50 condomínios + plano B (10–15 entrevistas c/ instaladores EV) decidem o recorte de H2. (6) **PDT-espinha:** copiloto agêntico de conformidade normativa + laço de aprendizado por feedback + guardrails de recusa, ancorado em base autoral NBR 5410+17019. (7) Equipe/verba: bolsistas elétrica=base/conteúdo · mestrando CC=arquitetura agêntica · dev PJ=integração. (8) Refrigeração/Linha 1 = FORA da submissão (adjacência de geradores; baixa norma → sem moat, não justifica CNPq) = expansão pós-Centelha. ⚠ CORREÇÃO a propagar: no MN.md desmembrar "Solar+EV" → EV REUSA NBR 5410 (+17019 nova=moat), perfil ≈ "instalações prediais" (alto reuso/base, baixo Fit CMMS); solar é que puxa NBR 16690. Moat NÃO inverte: base autoral=moat durável; arquitetura agêntica=PDT/motor. EV é HIPÓTESE-a-validar, geradores é fato. Status FV/PE/GTM/MN/PI/EX → 🟡 revisar (EV).
 
 ---
 
@@ -94,6 +95,9 @@ Resolvidas na sessão de grill (modelo de negócio). Detalhe nos arquivos citado
       comercial dedicado por gatilho. → `05-equipe/CE.md` + `04-consistencia/O.md`
 - [x] **Escopo técnico 12 meses:** geradores H1 (núcleo, founder+subvenção) +
       subestação H2 (aprofundamento, bolsistas). → `04-consistencia/CF.md`
+      ⚠ **SUPERSEDIDO em 2026-07-02:** H2 = **instalação/adequação EV** (não
+      subestação), com gate de validação em H1 e caminho leve. Ver log 2026-07-02 e
+      `_PIVOT-EV-2026-07-02.md`.
 
 ---
 
