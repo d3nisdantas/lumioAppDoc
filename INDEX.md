@@ -26,9 +26,9 @@ Status: ⬜ não iniciado · 🟡 em andamento · ✅ fechado · 🔴 bloqueado
 | EX | Impacto | `02-impacto/EX.md` | Que externalidades (acadêmico UFCG, regional, emprego)? | 🟡 revisar (EV) | Baixa |
 | FV | Mercado | `03-mercado/FV.md` | Que valor concreto entrego a cada segmento? Disposição a pagar? | 🟡 revisar (EV) | **Alta** |
 | PE | Mercado | `03-mercado/PE.md` | Como escala? PLG, efeito de rede, custo marginal? | 🟡 revisar (EV) | **Alta** |
-| GTM | Mercado (gap) | `03-mercado/GTM.md` | Posicionamento, canais, CAC, funil de aquisição? | 🟡 revisar (EV) | **Crítica** |
-| MN | Consistência ⚠ | `04-consistencia/MN.md` | Pricing por segmento, unit economics, receita? | 🟡 revisar (EV) | **Crítica** |
-| CF | Consistência ⚠ | `04-consistencia/CF.md` | Cronograma físico 12 meses, marcos, entregáveis? | ⬜ | **Alta** |
+| GTM | Mercado (gap) | `03-mercado/GTM.md` | Posicionamento, canais, CAC, funil de aquisição? | ✅ (pivot EV) | **Crítica** |
+| MN | Consistência ⚠ | `04-consistencia/MN.md` | Pricing por segmento, unit economics, receita? | ✅ (pivot EV) | **Crítica** |
+| CF | Consistência ⚠ | `04-consistencia/CF.md` | Cronograma físico 12 meses, marcos, entregáveis? | 🟡 (granular; falta O/CE) | **Alta** |
 | O  | Consistência ⚠ | `04-consistencia/O.md` | Orçamento por rubrica, alinhado a equipe e cronograma? | ⬜ | **Alta** |
 | DT | Equipe | `05-equipe/DT.md` | Domínio técnico do núcleo + UFCG comprovado? | ⬜ | Baixa (consolidar) |
 | CE | Equipe (gap) | `05-equipe/CE.md` | Capacidade de execução + lacuna comercial endereçada? | ⬜ | Média |
@@ -84,6 +84,30 @@ Formato: `YYYY-MM-DD · [tópico] · decisão · porquê`
 
 ---
 
+- 2026-07-02 · [mercado+consistência · grill · pivot-EV] · **GTM, MN e CF atualizados
+  para o pivot subestação→instalação/EV.** 12 decisões: (1) escopo da sessão inclui
+  cronograma granular do CF. (2) Heatmap MN: WTP de EV = `[VALIDAR]`, Score exibido
+  como **faixa 3,80–4,40** (não fingir precisão). (3) Subestação **mantida no heatmap
+  com nota "descartada como prioridade; retida como contingência do gate H1"** (norma-
+  pesada → mantém bolsistas produtivos); solar desmembrada de EV, sozinha = 3,80
+  (NBR 16690, baixo reuso). (4) Nova linha "Instalação/adequação EV" (Mercado🟢5,
+  Dor🟢5, WTP`[VALIDAR]`, FitCMMS🟧2, FitCopiloto🟩4). (5) GTM: condomínios/síndicos =
+  **Canal de VALIDAÇÃO H1, FORA dos 3 anéis** (anéis são receita/geradores); ~50
+  condomínios = evidência de ACESSO, não WTP. (6) Funil AARRR intocado + frase de
+  fronteira (EV não tem funil de receita nesta fase). (7) Gate 1 negativo → contingência
+  = **subestação** (não aprofundar geradores — subestação é norma-pesada). (8) CF:
+  calendário real **M1=out/2026 → M12=set/2027**; divulgação 02/10, contratação
+  03/10–31/12/2026. (9) Entrada escalonada: Founder M1, Dev PJ M1–M2, **equipe univ.
+  M4–M6 (Q1/27, ≤ fim mar/27)**. (10) **6+6 preservado e reescrito:** equipe univ. faz
+  **manuais/geradores (H1) → normas/EV (H2)**; NÃO dissolver em "founder=geradores/
+  equipe=EV". (11) **Dois gates:** Gate 1 mercado (M4–5, EV✅/subestação) + Gate 2
+  técnico (fim H1/M6, agente-de-manuais validado → constrói agente-de-normas). (12)
+  Fontes NBR 17019 + mercado EV = `[FONTE PENDENTE]` (não buscadas nesta sessão).
+  Caminho leve reafirmado (instalação = tipo especial de OS). Status: GTM/MN→✅;
+  CF→🟡 (granular feito, mas O/CE ainda alimentam a alocação fina).
+
+---
+
 ## 3. Decisões de negócio que travam outras frentes (RESOLVIDAS 2026-06-23 · escopo H2 revisto no pivot 2026-07-02)
 Resolvidas na sessão de grill (modelo de negócio). Detalhe nos arquivos citados.
 - [x] **Segmento prioritário:** PME de manutenção de **geradores** (pagador=empresa,
@@ -127,7 +151,10 @@ Resolvidas na sessão de grill (modelo de negócio). Detalhe nos arquivos citado
    cessão de PI nos termos de bolsa.
 6. **FV/PE/CF** — entrevistas com pagador + curva de custo marginal + cronograma
    granular com marcos comerciais.
-7. **CF/EV** — cronograma físico nasce com **H2 = instalação/EV** (não subestação),
-   incluindo o **gate de validação H1** (~mês 4–5) como marco entre validar e
-   aprofundar, o caminho leve (tipo-de-OS, não ERP de obra) e a divisão de equipe do
-   `_PIVOT-EV §3.7`. Ver pivot §9.
+7. ~~**CF/EV** — cronograma físico com H2 = instalação/EV, gate H1, caminho leve~~ ✅
+   (grill 2026-07-02: calendário out/26–set/27, granular M1–M12, dois gates).
+   ⚠ Pendências que **mantêm o CF em 🟡**: amarrar marcos às rubricas do **`O.md`**,
+   confirmar equipe no **`CE.md`** e definir o critério quantitativo do **Gate 1**.
+8. ~~**GTM/MN** — aplicar o pivot EV~~ ✅ (grill 2026-07-02). Segue pendente em
+   Mercado: entrevistas com o **pagador** (geradores) e, pós-gate, mini unit-economics
+   de EV `[VALIDAR]`.

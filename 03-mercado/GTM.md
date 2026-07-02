@@ -78,9 +78,30 @@
 | **LinkedIn Ads** | Budget alto; perfil de dono de PME de geradores não é heavy user de LinkedIn |
 | **CREA / Sindicatos** | Ciclo de parceria institucional longo; retorno difuso; não é onde a decisão de compra acontece |
 
+### ⚡ Canal de VALIDAÇÃO (H1) — **NÃO é canal de receita** (pivot 2026-07-02)
+
+> Os 3 anéis acima são canais de **receita do software**, ancorados em **geradores**
+> (beachhead). O canal abaixo é de natureza distinta: serve à **descoberta da vertical
+> de aprofundamento H2 (instalação/adequação EV)**, cuja dor **ainda não foi validada**.
+> Fica deliberadamente **fora dos anéis** para não confundir experimento com aquisição.
+
+| Canal | Papel | Ressalva obrigatória (`_PIVOT §6`) |
+|---|---|---|
+| **Condomínios / síndicos / administradoras** | Acesso e local das **5–10 instalações-laboratório** de carregadores EV que rodam o gate de validação H1 | Os **~50 condomínios** (carteira própria) são **evidência de ACESSO a mercado — NÃO de WTP nem de dor comprovada**. Ciclo de decisão em condomínio é lento (assembleia) → **plano B:** 10–15 entrevistas de descoberta com instaladores que já fazem EV, caso a obra atrase |
+
+**Regra de narrativa:** o **motor de aquisição do software segue sendo geradores**;
+EV é **experimento de descoberta em H1** (ver gate de validação no `CF.md`). Nenhum
+número de WTP/receita de EV é afirmado nesta fase.
+
 ---
 
 ## ✅ A4 — Funil AARRR (sessão grill 2026-06-25)
+
+> **Fronteira (pivot 2026-07-02):** este funil descreve o **motor de receita
+> (geradores)** e permanece válido. A vertical **EV não tem funil de receita nesta
+> fase** — é experimento de descoberta em H1 (ver "Canal de VALIDAÇÃO" acima e o
+> **gate de validação H1** no `CF.md`). Não construímos um segundo funil para uma dor
+> ainda não validada.
 
 ### Diagrama de funil
 
@@ -155,6 +176,14 @@
 - [ ] Carta(s) de intenção de compra além do piloto (meta: 2–3 LOIs antes da submissão).
 - [ ] Posicionamento de uma frase: *"O único CMMS feito para PMEs de manutenção elétrica, com copiloto de IA fundamentado na NBR 5410."*
 
+### Ações da vertical de validação EV (H1)
+- [ ] Formalizar o **acesso aos ~50 condomínios** como pipeline de experimento (origem: carteira própria) — registrar como acesso, não como pipeline de venda.
+- [ ] Preparar o **plano B de descoberta:** roteiro de 10–15 entrevistas com instaladores que já executam EV, acionável se a obra em condomínio atrasar.
+- [ ] Definir o **critério do gate H1** (~mês 4–5): o que caracteriza "dor EV confirmada" vs. acionar a contingência (subestação). Ver `CF.md`.
+
 ## Fontes
 (registrar em 00-fontes/evidencias.md — pesquisa.csv já registrada)
-- Sessão grill 2026-06-25: decisões de canais, CAC, funil AARRR
+- Sessão grill 2026-06-25: decisões de canais, CAC, funil AARRR.
+- Sessão grill 2026-07-02 (pivot EV): canal de validação (condomínios), fronteira do funil, gate H1.
+- NBR 17019 (recarga de VE) — título/ano/status. `[FONTE PENDENTE]`
+- Tamanho/crescimento do mercado de instalação de carregadores EV no Brasil (frota EV, ABVE/similar). `[FONTE PENDENTE]`

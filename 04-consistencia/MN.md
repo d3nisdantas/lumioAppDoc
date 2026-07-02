@@ -174,37 +174,68 @@ autoral NBR já produzida). Pesos:
 
 ## Heatmap (escala 1–5; 🟥1 🟧2 🟨3 🟩4 🟢5)
 
+> ⚠ **Pivot 2026-07-02:** "Solar + EV charging" estavam **agrupados** e penalizados
+> juntos em reuso de base. Foram **desmembrados**: EV é instalação de baixa tensão
+> que **REUSA a NBR 5410** (+ adiciona a NBR 17019, norma nova de foco = moat) → alto
+> Fit Copiloto/reuso; **solar** é que puxa a NBR 16690 e não reusa a base. São
+> verticais distintas. Ver `_PIVOT-EV-2026-07-02.md §5`.
+
 | Vertical | Mercado (30%) | Dor/campo (25%) | WTP (15%) | Fit CMMS (15%) | Fit Copiloto (15%) | **Score** |
 |---|---|---|---|---|---|---|
-| **Solar / fotovoltaico + EV charging** | 🟢5 | 🟢5 | 🟨3 | 🟧2 | 🟧2 | **3,80** |
-| **Subestações BT/MT** | 🟨3 | 🟨3 | 🟩4 | 🟢5 | 🟩4 | **3,60** |
+| **Instalação/adequação EV** *(H2, hipótese-a-validar)* | 🟢5 | 🟢5 | **`[VALIDAR]`** | 🟧2 | 🟩4 | **3,80–4,40** ¹ |
+| **Solar / fotovoltaico** *(hipótese posterior)* | 🟢5 | 🟢5 | 🟨3 | 🟧2 | 🟧2 | **3,80** |
+| ~~**Subestações BT/MT**~~ *(descartada como prioridade — ver nota ²)* | 🟨3 | 🟨3 | 🟩4 | 🟢5 | 🟩4 | 3,60 |
 | Autônomo geral *(= canal Free, não receita direta)* | 🟩4 | 🟩4 | 🟥1 | 🟨3 | 🟩4 | 3,40 |
 | Instalações prediais | 🟩4 | 🟨3 | 🟧2 | 🟧2 | 🟢5 | 3,30 |
 | Bombas / motores industriais | 🟨3 | 🟨3 | 🟩4 | 🟩4 | 🟧2 | 3,15 |
 
 *(Geradores = beachhead atual, fora do ranking de expansão.)*
 
-**Leitura:** as duas primeiras lideram por **motivos opostos** — solar/EV pela
-dupla mercado+Copiloto, mas com **penalidade visível em Fit CMMS e reuso de base**
-(exige conteúdo de norma NOVO: NBR 16690, inversores, EVSE — não reusa a base
-NBR 5410). Subestação pontua exatamente onde solar é fraca (fit), e é
-**de-riscada por um cliente concreto que vai puxá-la**.
+¹ **Score exibido como faixa** porque a WTP do pagador de instalação EV é
+**desconhecida** (`[VALIDAR em H1]`, ver `_PIVOT §6`): 3,65 fixos (Mercado+Dor+Fit)
++ WTP×0,15 → **3,80** se WTP=1 até **4,40** se WTP=5. Não fingimos precisão de WTP
+que ainda não medimos.
 
-## Recomendação: sequência de expansão pós-Centelha (duas trilhas)
-1. **Geradores** — beachhead (em curso).
-2. **Subestação BT/MT — TRILHA COMPROMETIDA (H2, baixo risco).** Puxada por cliente
-   concreto + Fit CMMS forte + reuso de base alto (elétrica/MT adjacente). Não é
-   aposta: há demanda real.
-3. **Solar/EV charging — TRILHA HIPÓTESE-A-VALIDAR (alto upside).** Maior mercado e
-   maior valor de Copiloto (instalador decide no telhado, na hora), mas exige
-   **2 gates de validação** antes de comprometer: (a) o instalador de solar enxerga
-   valor no Copiloto a ponto de pagar? (b) qual o custo de produzir a base de norma
-   nova? Registrada como o vetor de crescimento grande — viva e priorizada, sem
-   fingir certeza que ainda não existe.
+² **Subestação: descartada como PRIORIDADE**, mas **retida como plano de contingência
+do gate H1** — se a dor de EV não se confirmar, a equipe universitária redireciona o
+esforço de norma para subestação (também é trabalho norma-pesado, adequado ao perfil
+acadêmico dos bolsistas). O "de-risco por cliente concreto" do texto antigo **não
+existe mais**: subestação é nicho raso (1 único cliente-final + concorrente de
+software robusto). Ver `CF.md` (gate H1) e `_PIVOT §7`.
+
+**Leitura:** **EV lidera** pela dupla mercado+Dor de campo somada a **reuso de base
+alto** (a grande correção do pivot: EV reusa a NBR 5410 e só adiciona a 17019 — não
+começa do zero como solar). A **penalidade em Fit CMMS (🟧2) é esperada e coerente**:
+instalação é projeto/comissionamento, **não** manutenção recorrente — por isso entra
+pelo **caminho leve** (tipo especial de OS, ver abaixo), não como módulo de obra.
+Solar fica logo atrás mas **sem** o reuso de base (puxa NBR 16690) → hipótese
+posterior, separada de EV.
+
+## Recomendação: sequência de expansão pós-Centelha
+1. **Geradores** — beachhead (em curso). *(inalterado)*
+2. **Instalação/adequação EV — TRILHA DE APROFUNDAMENTO H2 (HIPÓTESE-A-VALIDAR).**
+   Substitui subestação. **Forças:** reuso da NBR 5410 + norma nova NBR 17019 (moat) +
+   laboratório na mão (~50 condomínios) + tailwind de frota EV + **abre o TAM**
+   (CNAE 4321-5, 332k — instalação elétrica). **Fraqueza:** **dor ainda NÃO validada**
+   → de-riscada pelo **gate de validação H1** (5–10 instalações-lab nos condomínios +
+   plano B de 10–15 entrevistas com instaladores EV). Registrada honestamente como
+   **hipótese**, não certeza (geradores é o fato; EV é a aposta de crescimento).
+3. **Solar / demais** — hipóteses posteriores (solar exige NBR 16690, baixo reuso).
+   **Subestação = contingência do gate H1**, não trilha ativa (ver nota ²).
 
 *Autônomo geral* não é vertical de receita: é o **plano Free** (canal de aquisição).
 *Prediais* e *bombas/motores* ficam para trás (predial: WTP/fit CMMS baixos e muito
 informal; industrial: exige conteúdo novo e é nicho).
+
+## Caminho leve e mini unit-economics do segmento EV
+- **Instalação = tipo especial de OS** (ordem + checklist + comissionamento +
+  laudo/ART), **não** um módulo de obra/ERP (fases, medição, materiais). Isso mantém
+  o **pricing por assento coerente** (EV não vira produto de projeto à parte) e
+  preserva a alegação de MVP 70%/500 testes. Ver `_PIVOT §3.4` e `CF.md`.
+- **Unit economics de EV = a validar.** A WTP do **pagador de instalação** é
+  desconhecida → a vertical EV terá **mini unit-economics própria após o gate H1**
+  (`[VALIDAR]`). **O modelo de geradores (B2, ARPA R$120, churn 5%, LTV/CAC) NÃO muda
+  por causa de EV** — ele é ancorado em geradores e permanece.
 
 ---
 
