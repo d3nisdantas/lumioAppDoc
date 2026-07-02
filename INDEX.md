@@ -32,7 +32,7 @@ Status: ⬜ não iniciado · 🟡 em andamento · ✅ fechado · 🔴 bloqueado
 | O  | Consistência ⚠ | `04-consistencia/O.md` | Orçamento por rubrica, alinhado a equipe e cronograma? | ⬜ | **Alta** |
 | DT | Equipe | `05-equipe/DT.md` | Domínio técnico do núcleo + UFCG comprovado? | ⬜ | Baixa (consolidar) |
 | CE | Equipe (gap) | `05-equipe/CE.md` | Capacidade de execução + lacuna comercial endereçada? | ⬜ | Média |
-| — | PI jurídica (gap) | `06-pi-juridico/propriedade-intelectual.md` | Que ativos proteger e como (marca, software, base autoral)? | ⬜ | **Alta** |
+| — | PI jurídica (gap) | `06-pi-juridico/propriedade-intelectual.md` | Que ativos proteger e como (marca, software, base autoral)? | ✅ | **Alta** |
 | — | Red-team | `99-red-team/gaps.md` | Onde um avaliador atacaria? (RODAR PRIMEIRO) | ✅ | feito 22/06 |
 
 ---
@@ -80,6 +80,7 @@ Formato: `YYYY-MM-DD · [tópico] · decisão · porquê`
   percentuais cravados (desarma "tudo é hipótese"); metas duras só onde controla
   (adoção, verbetes, bolsistas). `*` marca tudo condicionado a vencer o edital.
 - 2026-06-25 · [mercado · grill] · Track A (FV+PE+GTM) fechado. TAM=332.833 (CNAE 4321-5, Econodata mai/2026). SAM=~8.750–10.000 (CNAE 3313-9/01, ≤10 func.). SOM 12m=10 empresas; SOM 36m=100–150. CMMS como produto de receita imediata (mês 1 pós-resultado), Copiloto como acelerador H2. VPC 3 segmentos: autônomo (digitalização+laudo), PME geradores (margem+junior autônomo — beachhead), grande operador (padronização+auditabilidade — hipótese). Bullseye: interno=WhatsApp+distribuidores; meio=referral+SEO; externo=YouTube/LinkedIn/CREA. AARRR: CAC R$144–1.000; aha moment = Copiloto cita manual específico; MRR mês 12 = R$1.200; LTV/CAC 2,4–11×. Subestações incluídas no SAM (mesmo CNAE, mesmo perfil). 840 mortes por acidentes elétricos 2024 (ABRACOPEL) — dado mais forte que "centenas" do pitch.
+- 2026-07-02 · [PI jurídica · grill · Track C] · `06-pi-juridico/propriedade-intelectual.md` FECHADO. Titularidade hoje: sem CNPJ, tudo em CPF do founder (marca/software depositados no CPF e cedidos à PJ quando constituída). Marca: só "Lumio", nominativa, sem logo, depositar ANTES de 10/08 (~R$440/classe). Software: só GerenciaLume agora (autoria 100% do founder, sem terceiros); Copiloto registra depois, como marco do cronograma (código ainda não existe de fato). Base autoral NBR 5410: 100% trabalho futuro dos bolsistas; regra travada = verbetes são comentário/síntese ORIGINAL, nunca cópia da norma (afasta risco de violação de direito autoral da ABNT, que detém o texto da NBR 5410). RAG = segredo de negócio (código/prompts/params); dissertação do mestrando fica em nível conceitual, com cláusula de confidencialidade no termo de bolsa. Dev PJ do Copiloto: ✅ contrato já tem cessão de PI explícita, resolvido. ⚠ FATO NOVO: empresa-piloto é a empresa do PAI do founder (ele trabalha nela hoje; vai abrir CNPJ própria depois); por decisão do founder, a implicação disso para EDD/GTM (enquadramento como "prova de tração") NÃO foi tratada nesta sessão — fica em aberto para revisão futura se alguém quiser reabrir. Ação travada: cláusula formal de dados/LGPD entre a empresa do pai e a futura PJ do founder antes de treinar o Copiloto com dados de OS reais (⚠ exige advogado), mesmo sendo relação familiar. Timing: marca+software antes de submeter (recurso próprio); cessões de bolsa + cláusula de dados + parecer jurídico amplo com verba do edital (§7.1). Taxas INPI registradas no ledger com ressalva (fontes secundárias, confirmar no e-INPI antes do depósito).
 
 ---
 
@@ -111,9 +112,20 @@ Resolvidas na sessão de grill (modelo de negócio). Detalhe nos arquivos citado
    ⚠ Pendências `[VALIDAR]` herdadas: custo-de-servir real (CMMS+IA), conversão
    freemium, e **incluir custo do free no CAC** (2 lembretes no `MN.md`).
 3. **O** — valores por rubrica somando aos tetos (R$85.333 + R$50.000), amarrados
-   a marcos do CF; confirmar base do teto de 30% do pró-labore.
+   a marcos do CF; confirmar base do teto de 30% do pró-labore. Incluir rubrica
+   de PI (INPI marca+software, ~baixo custo) e assessoria jurídica das cláusulas
+   de cessão (ver item 5).
 4. **CE/DT** — obter carta de intenção do advisor B2B (ação urgente, < 10/08).
-5. **PI jurídica** — estratégia de 1 página + INPI marca/software + cláusula de
-   cessão de PI nos termos de bolsa.
+5. ~~**PI jurídica** — estratégia + INPI marca/software + cessão de PI~~ ✅
+   (Track C, 2026-07-02). Ações pendentes de EXECUÇÃO (não mais de decisão):
+   depositar marca "Lumio" + registrar software GerenciaLume no INPI antes de
+   10/08; redigir cláusula de dados/LGPD entre a empresa do pai (piloto) e a
+   futura PJ do founder (⚠ advogado). Ver `06-pi-juridico/propriedade-intelectual.md`.
 6. **FV/PE/CF** — entrevistas com pagador + curva de custo marginal + cronograma
    granular com marcos comerciais.
+7. ⚠ **Nota não tratada (Track C, 2026-07-02):** a empresa-piloto é a empresa do
+   pai do founder (relação familiar/parte relacionada). Por decisão do founder,
+   isso não foi endereçado em PI jurídica nem reaberto em EDD/GTM nesta rodada
+   — mas pode ser relevante para como o piloto é enquadrado como "prova de
+   tração" perante os avaliadores. Fica registrado para decisão futura do
+   founder sobre se/como tratar.

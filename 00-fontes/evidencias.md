@@ -24,4 +24,8 @@
 | CAC blended por ano (mix 80/20→30/70) | R$843 → R$608 → R$451 | modelo próprio | 2026-06 | MN |
 | ARR run-rate anos 1–3 (10→40→125 empresas) | R$14,4k → R$57,6k → R$180k | modelo próprio (SOM-ancorado) | 2026-06 | MN |
 | Conversão freemium Free→pago (premissa) | ~4%/ano a partir do ano 2 | premissa própria | 2026-06 | MN — `[VALIDAR]` |
+| Taxa INPI — pedido de registro de marca, pessoa física, 1 classe (desc. 50%) | ≈ R$440/classe (R$880 sem desconto) | fontes secundárias (escritórios especializados), tabela oficial INPI bloqueada para fetch automatizado | 2026-07-02 | PI jurídica — confirmar valor exato no e-INPI antes do depósito |
+| Taxa INPI — registro de programa de computador (código serviço 730) | ≈ R$185 | fontes secundárias (escritórios especializados) | 2026-07-02 | PI jurídica — confirmar valor exato no e-INPI antes do depósito |
+| Prazo médio de concessão de registro de marca no INPI | 8–18 meses (proteção vale desde o depósito) | fontes secundárias | 2026-07-02 | PI jurídica |
+| Prazo de emissão do certificado de registro de programa de computador | dias a poucas semanas (sem exigência) | fontes secundárias | 2026-07-02 | PI jurídica |
 | (adicionar...) | | `[FONTE PENDENTE]` | | |
