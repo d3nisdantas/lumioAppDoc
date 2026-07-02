@@ -2,7 +2,7 @@
 
 > Painel central. O orquestrador (você) navega por AQUI. Cada sessão-worker
 > atualiza a linha do seu tópico e o log de decisões ao terminar.
-> Atualizado em: 2026-06-22
+> Atualizado em: 2026-06-25
 
 ---
 
@@ -22,12 +22,12 @@ Status: ⬜ não iniciado · 🟡 em andamento · ✅ fechado · 🔴 bloqueado
 |---|---|---|---|---|---|
 | EDD | Solução | `01-solucao/EDD.md` | Que evidências provam o estágio atual (MVP 70%, testes, piloto)? | ⬜ | Baixa (consolidar) |
 | PDT | Solução | `01-solucao/PDT.md` | Qual a tese de evolução tecnológica nos 12 meses? | ⬜ | Média |
-| PI | Impacto | `02-impacto/PI.md` | Que impacto positivo medível (segurança, conformidade)? | ⬜ | Baixa (consolidar) |
-| EX | Impacto | `02-impacto/EX.md` | Que externalidades (acadêmico UFCG, regional, emprego)? | ⬜ | Baixa |
-| FV | Mercado | `03-mercado/FV.md` | Que valor concreto entrego a cada segmento? Disposição a pagar? | ⬜ | **Alta** |
-| PE | Mercado | `03-mercado/PE.md` | Como escala? PLG, efeito de rede, custo marginal? | ⬜ | **Alta** |
-| GTM | Mercado (gap) | `03-mercado/GTM.md` | Posicionamento, canais, CAC, funil de aquisição? | ⬜ | **Crítica** |
-| MN | Consistência ⚠ | `04-consistencia/MN.md` | Pricing por segmento, unit economics, receita? | ⬜ | **Crítica** |
+| PI | Impacto | `02-impacto/PI.md` | Que impacto positivo medível (segurança, conformidade)? | ✅ | Baixa (consolidar) |
+| EX | Impacto | `02-impacto/EX.md` | Que externalidades (acadêmico UFCG, regional, emprego)? | ✅ | Baixa |
+| FV | Mercado | `03-mercado/FV.md` | Que valor concreto entrego a cada segmento? Disposição a pagar? | ✅ | **Alta** |
+| PE | Mercado | `03-mercado/PE.md` | Como escala? PLG, efeito de rede, custo marginal? | ✅ | **Alta** |
+| GTM | Mercado (gap) | `03-mercado/GTM.md` | Posicionamento, canais, CAC, funil de aquisição? | ✅ | **Crítica** |
+| MN | Consistência ⚠ | `04-consistencia/MN.md` | Pricing por segmento, unit economics, receita? | ✅ | **Crítica** |
 | CF | Consistência ⚠ | `04-consistencia/CF.md` | Cronograma físico 12 meses, marcos, entregáveis? | ⬜ | **Alta** |
 | O  | Consistência ⚠ | `04-consistencia/O.md` | Orçamento por rubrica, alinhado a equipe e cronograma? | ⬜ | **Alta** |
 | DT | Equipe | `05-equipe/DT.md` | Domínio técnico do núcleo + UFCG comprovado? | ⬜ | Baixa (consolidar) |
@@ -44,15 +44,56 @@ Formato: `YYYY-MM-DD · [tópico] · decisão · porquê`
 - 2026-06-22 · [red-team] · `gaps.md` gerado atacando o pitch real (v2). TOP 5: (1) MN sem modelo/pricing → risco de eliminação em CP; (2) equipe comercial abstrata; (3) beachhead indefinido (autônomo/MEI × PME); (4) circularidade UFCG; (5) PI zero.
 - 2026-06-22 · [fatos] · Empresa-piloto ASSINADA (prova de tração). UFCG NÃO formalizada — condicional a vencer o Centelha (verba CNPq). Pricing em aberto. Perfil comercial e PI/registros = inexistentes. CLAUDE.md §1 corrigido.
 - 2026-06-22 · [decisão pendente] · Beachhead não decidido pelo founder. Recomendação do red-team: PME de geradores (v1 só atende gerador/subestação; autônomo/MEI é v3). Reabrir só com ônus da prova.
+- 2026-06-23 · [modelo de negócio · grill] · As 4 decisões do §3 RESOLVIDAS. (1) Beachhead = PME de geradores (pagador=empresa, usuário=técnico); expansão p/ eletricistas em geral nas Fases 2–3 ("entrar caro-e-estreito p/ sair barato-e-amplo"). (2) Pricing = assinatura por técnico/assento, mensalidade fixa, ~R$30–50/assento. (3) Equipe = founder (CMMS+comercial, pró-labore) + dev PJ (Copiloto) + advisor B2B 20 anos (carta a formalizar) + bolsas: 2 elétrica + 1 mestrando CC; comercial dedicado por gatilho. (4) Escopo = geradores H1 (núcleo) + subestação H2 (bolsistas). · pareceres apontavam negócio como gargalo.
+- 2026-06-23 · [fatos · edital] · Circularidade UFCG DISSOLVIDA: bolsas (§6.1–6.3) são concedidas ao projeto aprovado via FAPESQ↔CNPq e recrutadas pelo coordenador — não exigem convênio UFCG. Subvenção §7.1.d financia explicitamente assessoria de plano de negócio/marketing/anúncios E registro de PI → gaps comercial e PI ganham rubrica. Restrição: sem CLT pela subvenção (dev=PJ); pró-labore só sócio, teto 30%.
+- 2026-06-23 · [pesquisa] · pesquisa.csv (n=9) registrada no ledger com ressalvas: viés de seleção (grupo de geradores) → usar como apetite, não dimensionamento; WTP individual ~R$30 vira âncora por assento; paradoxo do pagador (quem paga não vê valor e vice-versa) → reforça pagador=empresa.
+- 2026-06-25 · [modelo de negócio · grill · Track B] · MN FECHADO. Pricing: Free
+  (autônomo, CMMS+Copiloto, 1 usuário, ≤10 equip., uso justo ~20/mês) + Equipe
+  (R$40/assento, mín. 2, uso justo ~100/assento); SEM Enterprise (founder preferiu
+  Freemium a topo). Copiloto INCLUÍDO no assento, uso justo soft (IA custa só 1–3%
+  do assento → cap é trava anti-abuso, não alavanca). Gate Free→pago: 2º usuário OU
+  >10 equip. Cobrança mensal default + opção anual. Unit economics (`unit-economics.csv`,
+  4 sheets): ARPA R$120; churn base 5%/mês (consistente c/ GTM), sens. 3%/8%; custo-
+  de-servir 2 camadas (fixo R$400–800 + var R$2,50 pago/R$1,80 free) `[VALIDAR]`;
+  CAC blended R$843→R$451 (mix 80/20→30/70); LTV/CAC 2,4×(network)/11,1×(distrib.);
+  payback ~7,5 m; ARR 14,4k→57,6k→180k (36m, SOM-ancorado); margem core 44%→90%.
+  Freemium = canal PARALELO (não infla SOM), custo do free entra no CAC (lembrete).
+  Scoring verticais: fit dividido em CMMS×Copiloto; pesos Mercado30/Dor-campo25/WTP15/
+  FitCMMS15/FitCopiloto15. Sequência: geradores→SUBESTAÇÃO (comprometida, puxada por
+  cliente)→SOLAR/EV (hipótese-a-validar: alto mercado/Copiloto mas exige conteúdo de
+  norma novo). 2 LEMBRETES no MN.md: incluir free no CAC + estimar custo-de-servir real.
+- 2026-06-25 · [impacto · grill · Track D] · PI + EX FECHADOS. (1) Espinha causal
+  MEDIADA: Copiloto eleva conformidade/adesão a LOTO+citação de norma (proxy
+  controlável); 840 mortes = contexto, não KPI → desarma "vínculo copiloto→vida é
+  narrativo". (2) DUAS espinhas de valor/impacto: A=segurança+agilidade diagnóstica
+  (Copiloto); B=digitalização/inclusão via CMMS especializado-por-nicho de baixo
+  custo (via IA) vs. generalistas. (3) FBC pragmático 13 blocos (cortados Biophysical
+  Stocks/Ecosystem Services/Value Co-Destruction); Ecosystem Actors = humanos
+  influenciados (não ecologia). (4) Negativos declarados+mitigados: viés-IA, pegada-IA,
+  deskilling; "deslocamento júnior" reposicionado como POSITIVO (inclusão). Sem
+  correlação ambiental forçada (só pegada-IA no lado Planeta). (5) Externalidades em
+  2 ANDARES: piso garantido (empregos, capacitação piloto, digitalização, bolsas CNPq,
+  normas replicáveis) + upside IES (lab, orientação, Campina Grande/NE) → desarma
+  circularidade. (6) Impact Gap Canvas: lacuna = INTERSEÇÃO de 5 atributos (fundamentado
+  +seguro+no-fluxo+acessível+especializado). (7) ToC: indicadores = proxies medidos no
+  piloto (LOTO/citação, tempo-diagnóstico); COMPROMISSO DE MEDIÇÃO + baseline, NÃO
+  percentuais cravados (desarma "tudo é hipótese"); metas duras só onde controla
+  (adoção, verbetes, bolsistas). `*` marca tudo condicionado a vencer o edital.
+- 2026-06-25 · [mercado · grill] · Track A (FV+PE+GTM) fechado. TAM=332.833 (CNAE 4321-5, Econodata mai/2026). SAM=~8.750–10.000 (CNAE 3313-9/01, ≤10 func.). SOM 12m=10 empresas; SOM 36m=100–150. CMMS como produto de receita imediata (mês 1 pós-resultado), Copiloto como acelerador H2. VPC 3 segmentos: autônomo (digitalização+laudo), PME geradores (margem+junior autônomo — beachhead), grande operador (padronização+auditabilidade — hipótese). Bullseye: interno=WhatsApp+distribuidores; meio=referral+SEO; externo=YouTube/LinkedIn/CREA. AARRR: CAC R$144–1.000; aha moment = Copiloto cita manual específico; MRR mês 12 = R$1.200; LTV/CAC 2,4–11×. Subestações incluídas no SAM (mesmo CNAE, mesmo perfil). 840 mortes por acidentes elétricos 2024 (ABRACOPEL) — dado mais forte que "centenas" do pitch.
 
 ---
 
-## 3. Decisões de negócio que travam outras frentes (resolver cedo)
-Estas precisam de resposta ANTES de orçamento/cronograma:
-- [ ] **Segmento prioritário** do go-to-market (autônomo/MEI · PME · enterprise)?
-- [ ] **Modelo de pricing** por segmento (assinatura? por OS? por técnico?).
-- [ ] **Equipe a contratar** com recurso Centelha (define O e CE).
-- [ ] **Escopo técnico restante** dos 12 meses (define CF).
+## 3. Decisões de negócio que travam outras frentes (RESOLVIDAS 2026-06-23)
+Resolvidas na sessão de grill (modelo de negócio). Detalhe nos arquivos citados.
+- [x] **Segmento prioritário:** PME de manutenção de **geradores** (pagador=empresa,
+      usuário=técnico); expansão p/ eletricistas em geral nas Fases 2–3. → `03-mercado/GTM.md`
+- [x] **Modelo de pricing:** assinatura **por técnico/assento**, mensalidade fixa,
+      ~R$30–50/assento. Dependência: fair-use cap + unit economics. → `04-consistencia/MN.md`
+- [x] **Equipe/verba:** founder (CMMS+comercial, pró-labore) + dev **PJ** (Copiloto)
+      + advisor B2B (carta a formalizar) + bolsas (2 elétrica + 1 mestrando CC);
+      comercial dedicado por gatilho. → `05-equipe/CE.md` + `04-consistencia/O.md`
+- [x] **Escopo técnico 12 meses:** geradores H1 (núcleo, founder+subvenção) +
+      subestação H2 (aprofundamento, bolsistas). → `04-consistencia/CF.md`
 
 ---
 
@@ -65,6 +106,14 @@ Estas precisam de resposta ANTES de orçamento/cronograma:
 ---
 
 ## 5. Próximas ações (o orquestrador edita isto a cada sessão)
-1. Rodar sessão **red-team** → gera `99-red-team/gaps.md`.
-2. Resolver as 4 decisões do §3 (sessão de modelo de negócio).
-3. Abrir frentes Alta/Crítica em paralelo.
+1. ~~Rodar sessão red-team~~ ✅ · ~~Resolver as 4 decisões do §3~~ ✅ (2026-06-23).
+2. ~~**MN** — fechar unit economics + pricing + scoring~~ ✅ (Track B, 2026-06-25).
+   ⚠ Pendências `[VALIDAR]` herdadas: custo-de-servir real (CMMS+IA), conversão
+   freemium, e **incluir custo do free no CAC** (2 lembretes no `MN.md`).
+3. **O** — valores por rubrica somando aos tetos (R$85.333 + R$50.000), amarrados
+   a marcos do CF; confirmar base do teto de 30% do pró-labore.
+4. **CE/DT** — obter carta de intenção do advisor B2B (ação urgente, < 10/08).
+5. **PI jurídica** — estratégia de 1 página + INPI marca/software + cláusula de
+   cessão de PI nos termos de bolsa.
+6. **FV/PE/CF** — entrevistas com pagador + curva de custo marginal + cronograma
+   granular com marcos comerciais.
