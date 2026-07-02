@@ -28,10 +28,10 @@ Status: ⬜ não iniciado · 🟡 em andamento · ✅ fechado · 🔴 bloqueado
 | PE | Mercado | `03-mercado/PE.md` | Como escala? PLG, efeito de rede, custo marginal? | 🟡 revisar (EV) | **Alta** |
 | GTM | Mercado (gap) | `03-mercado/GTM.md` | Posicionamento, canais, CAC, funil de aquisição? | ✅ (pivot EV) | **Crítica** |
 | MN | Consistência ⚠ | `04-consistencia/MN.md` | Pricing por segmento, unit economics, receita? | ✅ (pivot EV) | **Crítica** |
-| CF | Consistência ⚠ | `04-consistencia/CF.md` | Cronograma físico 12 meses, marcos, entregáveis? | 🟡 (granular; falta O/CE) | **Alta** |
-| O  | Consistência ⚠ | `04-consistencia/O.md` | Orçamento por rubrica, alinhado a equipe e cronograma? | ⬜ | **Alta** |
-| DT | Equipe | `05-equipe/DT.md` | Domínio técnico do núcleo + UFCG comprovado? | ⬜ | Baixa (consolidar) |
-| CE | Equipe (gap) | `05-equipe/CE.md` | Capacidade de execução + lacuna comercial endereçada? | ⬜ | Média |
+| CF | Consistência ⚠ | `04-consistencia/CF.md` | Cronograma físico 12 meses, marcos, entregáveis? | ✅ (Gate 1 + rubricas) | **Alta** |
+| O  | Consistência ⚠ | `04-consistencia/O.md` | Orçamento por rubrica, alinhado a equipe e cronograma? | ✅ (grill 07-02) | **Alta** |
+| DT | Equipe | `05-equipe/DT.md` | Domínio técnico do núcleo + UFCG comprovado? | ✅ (grill 07-02) | Baixa (consolidar) |
+| CE | Equipe (gap) | `05-equipe/CE.md` | Capacidade de execução + lacuna comercial endereçada? | ✅ (grill 07-02) | Média |
 | — | PI jurídica (gap) | `06-pi-juridico/propriedade-intelectual.md` | Que ativos proteger e como (marca, software, base autoral)? | ⬜ | **Alta** |
 | — | Red-team | `99-red-team/gaps.md` | Onde um avaliador atacaria? (RODAR PRIMEIRO) | ✅ | feito 22/06 |
 
@@ -108,6 +108,25 @@ Formato: `YYYY-MM-DD · [tópico] · decisão · porquê`
 
 ---
 
+- 2026-07-02 · [consistência+equipe · grill] · **Triângulo O+CF+CE+DT FECHADO.**
+  **O (orçamento):** subvenção R$85.333 cravada → pró-labore R$12k (R$1.000/mês, 15h/sem,
+  14% << teto 30% da subvenção=base confirmada) + dev PJ R$36k + **comercial R$16k**
+  (R$6k realocados do pró-labore; advisor **pro-bono** por carta não consome a rubrica)
+  + PI/INPI R$6k + IA/infra R$8k + contador R$4,8k + diárias R$2.533. Bolsas ≤R$50k:
+  2 EE (DTI) + 1 mestrando CC, valores unitários `[VALIDAR: tabela FAPESQ/CNPq]`.
+  ⚠ Tensão registrada: O orça 12 bolsa-mês, CF entra M4 (~9m) → reconciliar com a tabela.
+  **CF → ✅:** Gate 1 = **teste de 3 sinais** (≥5 instalações-lab / ≥60% dor conformidade /
+  ≥3 sinais WTP; falha em qualquer um após plano B → contingência subestação); rubricas
+  amarradas aos marcos. **CE → ✅:** gap comercial = founder (15h/sem, part-time
+  reposicionado como mitigação de risco) + advisor pro-bono + **comercial dedicado por
+  GATILHO** (≥5 clientes pagos + saturação de pipeline; **custeado por RECEITA, não
+  subvenção**); dev PJ júnior já na equipe (tração, pago pelo founder hoje). **DT → ✅:**
+  founder EE/UFCG + 10a eng. software embarcado, **MVP solo** (GitHub+Railway); lacuna
+  de NBR reposicionada como **o objeto do fomento** (base 100% a construir = moat). ·
+  fecha o cluster de CP (peso 2×, eliminatório) + gap nº1 (comercial) e nº4 (contratações).
+
+---
+
 ## 3. Decisões de negócio que travam outras frentes (RESOLVIDAS 2026-06-23 · escopo H2 revisto no pivot 2026-07-02)
 Resolvidas na sessão de grill (modelo de negócio). Detalhe nos arquivos citados.
 - [x] **Segmento prioritário:** PME de manutenção de **geradores** (pagador=empresa,
@@ -144,9 +163,10 @@ Resolvidas na sessão de grill (modelo de negócio). Detalhe nos arquivos citado
 2. ~~**MN** — fechar unit economics + pricing + scoring~~ ✅ (Track B, 2026-06-25).
    ⚠ Pendências `[VALIDAR]` herdadas: custo-de-servir real (CMMS+IA), conversão
    freemium, e **incluir custo do free no CAC** (2 lembretes no `MN.md`).
-3. **O** — valores por rubrica somando aos tetos (R$85.333 + R$50.000), amarrados
-   a marcos do CF; confirmar base do teto de 30% do pró-labore.
-4. **CE/DT** — obter carta de intenção do advisor B2B (ação urgente, < 10/08).
+3. ~~**O** — valores por rubrica somando aos tetos~~ ✅ (grill 07-02). Pendência:
+   `[VALIDAR]` valores unitários de bolsa (tabela FAPESQ/CNPq) + reconciliar 12m vs. M4.
+4. **CE/DT** — obter **carta de intenção do advisor B2B** (ação urgente, < 10/08) +
+   link do **repo GitHub / deploy Railway** para evidência de DT `[FONTE PENDENTE]`.
 5. **PI jurídica** — estratégia de 1 página + INPI marca/software + cláusula de
    cessão de PI nos termos de bolsa.
 6. **FV/PE/CF** — entrevistas com pagador + curva de custo marginal + cronograma

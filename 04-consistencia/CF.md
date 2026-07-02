@@ -50,6 +50,23 @@ validar a experiência de agente-sobre-manuais; só então (H2) avança para o t
   EV) no H2. Sequência de risco: não se constrói o agente de norma sem antes provar o
   de manual.
 
+### 🎯 Critério quantitativo do Gate 1 (grill 2026-07-02 — fecha a pendência)
+O gate deixa de ser retórico: é um **teste de 3 sinais**, avaliado até o fim do **M5**.
+
+> **VERDE (H2 aprofunda EV)** exige **os três**:
+> 1. **Acesso/execução** — ≥ **5** das 5–10 instalações-laboratório concluídas
+>    (*ou*, via plano B, ≥ **8** de 10–15 entrevistas com instaladores EV realizadas);
+> 2. **Dor de conformidade** — ≥ **60%** dos casos evidenciam dor real de
+>    laudo/ART/conformidade **NBR 17019** que uma ferramenta endereçaria;
+> 3. **Disposição a pagar** — ≥ **3** sinais concretos de WTP (pagador identificado
+>    + faixa de preço aceita, ou LOI).
+>
+> **CONTINGÊNCIA (H2 → subestação)** se **qualquer** um dos três falhar após o plano B.
+> Núcleo de geradores e verba intactos — muda só o alvo autoral do H2.
+
+O trio **acesso + dor + WTP** é o mesmo que ancora o resto da proposta (GTM/MN),
+mantendo a coerência interna que o CP premia.
+
 ## 🪶 Caminho leve (obrigatório — preserva MVP 70% e cabe em 12m)
 Instalação EV = **tipo especial de OS** (ordem + checklist + comissionamento +
 laudo/ART). **NÃO** se constrói ERP/módulo de obra (fases, medição, materiais). Módulo
@@ -109,10 +126,21 @@ O cronograma de 12 meses é **pós-vitória no Centelha**. O investimento é o q
 viabiliza contratar (dev PJ + bolsistas) e custear a IA (commodity/chinesa, mais
 barata). O escopo só é executável nesse cenário de recurso aprovado.
 
-## O que ainda falta detalhar (alimenta de O e CE — por isso CF fica 🟡)
-- [ ] Amarrar cada marco a valores de **rubrica do `O.md`** (bolsas, dev PJ, IA/infra).
-- [ ] Confirmar composição/tempo da **equipe (`CE.md`)** para fechar a alocação fina.
-- [ ] Definir critério quantitativo do **Gate 1** ("dor EV confirmada" vs. contingência).
+## 💰 Amarração rubrica ↔ marco (fechada com o O.md — grill 2026-07-02)
+- **Dev PJ (R$36k)** concentra esforço em M1–M6 (integração/agente-de-manuais) e
+  M7–M11 (agente-de-normas EV) — segue as raias do cronograma granular.
+- **Bolsas (≤R$50k)** entram M4 (Q1/27): H1 manuais → H2 normas. ⚠ ver tensão
+  "12 bolsa-mês vs. entrada M4" registrada em `O.md §B` (`[VALIDAR]` com a tabela).
+- **Comercial (R$16k)** e **diárias (R$2.533)** alimentam a trilha comercial
+  (descoberta→LOIs no M5; ads no funil H2). **PI/INPI (R$6k)** protocolado no H1.
+- **IA/infra (R$8k)** cresce do M2 (retriever) para o H2 (base de normas).
+- Composição/tempo de equipe confirmados em `05-equipe/CE.md` (founder 15h/sem +
+  dev PJ júnior + advisor pro-bono + bolsas Q1/27; comercial dedicado por gatilho).
+
+## O que ainda falta detalhar
+- [x] Amarrar cada marco a valores de **rubrica do `O.md`**. ✅ grill 2026-07-02.
+- [x] Confirmar composição/tempo da **equipe (`CE.md`)**. ✅.
+- [x] Definir critério quantitativo do **Gate 1**. ✅ (teste de 3 sinais acima).
 
 ## Fontes
 (registrar em 00-fontes/evidencias.md)
