@@ -2,7 +2,7 @@
 
 > Painel central. O orquestrador (você) navega por AQUI. Cada sessão-worker
 > atualiza a linha do seu tópico e o log de decisões ao terminar.
-> Atualizado em: 2026-06-25
+> Atualizado em: 2026-07-02
 
 ---
 
@@ -84,20 +84,26 @@ Formato: `YYYY-MM-DD · [tópico] · decisão · porquê`
 
 ---
 
-## 3. Decisões de negócio que travam outras frentes (RESOLVIDAS 2026-06-23)
+## 3. Decisões de negócio que travam outras frentes (RESOLVIDAS 2026-06-23 · escopo H2 revisto no pivot 2026-07-02)
 Resolvidas na sessão de grill (modelo de negócio). Detalhe nos arquivos citados.
 - [x] **Segmento prioritário:** PME de manutenção de **geradores** (pagador=empresa,
       usuário=técnico); expansão p/ eletricistas em geral nas Fases 2–3. → `03-mercado/GTM.md`
 - [x] **Modelo de pricing:** assinatura **por técnico/assento**, mensalidade fixa,
-      ~R$30–50/assento. Dependência: fair-use cap + unit economics. → `04-consistencia/MN.md`
+      ~R$30–50/assento. Dependência: fair-use cap + unit economics.
+      Instalação EV entra como **tipo especial de OS dentro do modelo por assento**
+      (caminho leve), **não** como produto de projeto à parte. → `04-consistencia/MN.md`
 - [x] **Equipe/verba:** founder (CMMS+comercial, pró-labore) + dev **PJ** (Copiloto)
       + advisor B2B (carta a formalizar) + bolsas (2 elétrica + 1 mestrando CC);
-      comercial dedicado por gatilho. → `05-equipe/CE.md` + `04-consistencia/O.md`
+      comercial dedicado por gatilho. Composição **inalterada** pelo pivot; papéis das
+      bolsas definidos no `_PIVOT-EV §3.7` (elétrica→base autoral NBR 5410+17019;
+      mestrando CC→arquitetura agêntica; dev PJ→integração). → `05-equipe/CE.md` + `04-consistencia/O.md`
 - [x] **Escopo técnico 12 meses:** geradores H1 (núcleo, founder+subvenção) +
-      subestação H2 (aprofundamento, bolsistas). → `04-consistencia/CF.md`
-      ⚠ **SUPERSEDIDO em 2026-07-02:** H2 = **instalação/adequação EV** (não
-      subestação), com gate de validação em H1 e caminho leve. Ver log 2026-07-02 e
-      `_PIVOT-EV-2026-07-02.md`.
+      **instalação/adequação de carregadores EV** H2 (aprofundamento, bolsistas),
+      via **caminho leve** (instalação = tipo especial de OS, não ERP de obra) e
+      **gate de validação H1** (~mês 4–5: 5–10 instalações-lab nos ~50 condomínios +
+      plano B de entrevistas c/ instaladores EV). Substitui subestação (nicho raso:
+      1 cliente-final + concorrente robusto). → `04-consistencia/CF.md`
+      · detalhe no log 2026-07-02 e `_PIVOT-EV-2026-07-02.md`.
 
 ---
 
@@ -121,3 +127,7 @@ Resolvidas na sessão de grill (modelo de negócio). Detalhe nos arquivos citado
    cessão de PI nos termos de bolsa.
 6. **FV/PE/CF** — entrevistas com pagador + curva de custo marginal + cronograma
    granular com marcos comerciais.
+7. **CF/EV** — cronograma físico nasce com **H2 = instalação/EV** (não subestação),
+   incluindo o **gate de validação H1** (~mês 4–5) como marco entre validar e
+   aprofundar, o caminho leve (tipo-de-OS, não ERP de obra) e a divisão de equipe do
+   `_PIVOT-EV §3.7`. Ver pivot §9.
